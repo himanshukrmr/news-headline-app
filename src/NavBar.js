@@ -9,13 +9,13 @@ export class NavBar extends Component {
     return (
       <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-  <div className="container-fluid">
-    <Link className="navbar-brand" to="/general">HKNews</Link>
+        <div className="container-fluid">
+        <Link className="navbar-brand" to="/general">HKNews</Link>
     
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/general">Home</Link>
+          <Link className="nav-link active" aria-current="page" to="/General">Home</Link>
         </li>
         <li className="nav-item"><Link className='nav-link' to='/Business'>Business</Link></li>
         <li className="nav-item"><Link className='nav-link' to='/Entertainment'>Entertainment</Link></li>
